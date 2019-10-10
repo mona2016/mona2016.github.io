@@ -1,0 +1,364 @@
+.bg-secondary {
+    background-color: #fffdfd !important;
+}
+
+a:active, a:focus, a:hover {
+    color: #152888;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+
+li.nav-item a.nav-link:focus {
+    color: #fff;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+.px-lg-3 {
+    padding-left: 1rem !important;
+}
+
+#mainNav {
+ padding-top:1rem;
+ padding-bottom:1rem;
+ font-weight:700;
+ font-family:Montserrat
+}
+#mainNav .navbar-brand {
+ color:#565555;
+}
+#mainNav .navbar-nav {
+ margin-top:1rem;
+ letter-spacing:.0625rem
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+ color:#565555;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+ color:#152888
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active,#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+ color:#fff
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+ color:#152888;
+}
+#mainNav .navbar-toggler {
+ font-size:80%;
+ padding:.8rem
+}
+@media (min-width:992px) {
+ #mainNav {
+  padding-top:1rem;
+  padding-bottom:1rem;
+  -webkit-transition:padding-top .3s,padding-bottom .3s;
+  -moz-transition:padding-top .3s,padding-bottom .3s;
+  transition:padding-top .3s,padding-bottom .3s
+ }
+ #mainNav .navbar-brand {
+  font-size:2em;
+  -webkit-transition:font-size .3s;
+  -moz-transition:font-size .3s;
+  transition:font-size .3s
+ }
+ #mainNav .navbar-nav {
+  margin-top:0
+ }
+ #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+  color:#fff;
+  background:#152888;
+ }
+ #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+  color:#fff;
+  background:#152888;
+ }
+ #mainNav.navbar-shrink {
+  padding-top:.5rem;
+  padding-bottom:.5rem
+ }
+ #mainNav.navbar-shrink .navbar-brand {
+  font-size:1.5em
+ }
+}
+
+.bg-about-mona {
+  background: url('../img/mona.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  min-height: 660px;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+
+.tools{
+  max-height: 90px;
+  padding: 20px;
+}
+
+.proj-title-img{
+  /*width: 400px;*/
+  max-width: 100%;
+  height: auto;
+}
+
+.proj-cover-img{
+  width: 875px;
+  max-width: 100%;
+  height: auto;
+}
+
+.tools-group{
+  display: block;
+max-width: 100%;
+height: auto;
+}
+
+.rectangle {
+    max-width: 100%;
+    z-index: 20;
+    /*height: 347px;*/
+    height: auto;
+    padding: 20px;
+    background-color: rgb(131, 235, 250);
+    border-radius: 10px;
+  }
+
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    background: #83ebfa;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    align-content: center;
+}
+
+  .circle-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+
+.proj-title {
+    padding-top: 20px;
+    padding-bottom: 48px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.highlight-ligh-blue{
+  color: #83ebfa !important;
+}
+
+.title-small span {
+
+    position: relative;
+
+}
+
+.brand-color {
+    color: #152888;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.proj-image{
+  width: 100%;
+  height: auto;
+}
+
+
+.grid-item1{
+  min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+margin-bottom: 30px;}
+
+
+.grid-item1 .wrap-article{
+  border: 1px solid rgba(129, 129, 129, 0.1);
+background: #ffffff;
+padding: 30px 20px;}
+
+.grid-item1 .wrap-article .title {
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    letter-spacing: 0.1;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.grid-item1 .wrap-article img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-item1 .wrap-article .fancy {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    color: #818181;
+}
+
+.grid-item1 .wrap-article .content-blog {
+    margin-top: 30px;
+    padding: 0 10px 0 10px;
+    text-align: justify;
+    color: #5f5f5f;
+}
+
+.storyboard-image{
+  width: 560px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.contextual{
+  max-width: 100%; 
+  padding-bottom: 4px; 
+  border-radius: 10px; 
+  height: auto;
+}
+
+.proj-menu{
+  color: #fff;
+}
+
+.logo-shadow{
+  box-shadow: 10px 10px 5px #000;
+}
+
+.custom-blockquote{
+  color: #00000080;
+  
+}
+
+.user-groups{
+  max-width: 75px;
+}
+
+/*.overlay{
+  opacity: 0;
+}
+
+.portfolio-item:hover .caption .caption-content .overlay{
+  opacity: 1;
+}*/
+
+/*
+.container:hover .desc {
+  opacity: 1;
+}
+*/
+
+
+
+/*modal to zoom*/
+
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.6;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    /*! margin: 20px; */
+    display: block;
+    /*! width: 80%; */
+    max-width: 1400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+} 
+
+
