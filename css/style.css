@@ -14,6 +14,7 @@ li.nav-item a.nav-link:focus {
     color: #fff;
 }
 
+
 .rounded {
     border-radius: .25rem !important;
 }
@@ -236,9 +237,9 @@ padding: 30px 20px;}
 
 
 .contextual{
-  max-width: 100%; 
-  padding-bottom: 4px; 
-  border-radius: 10px; 
+  max-width: 100%;
+  padding-bottom: 4px;
+  border-radius: 10px;
   height: auto;
 }
 
@@ -252,7 +253,7 @@ padding: 30px 20px;}
 
 .custom-blockquote{
   color: #00000080;
-  
+
 }
 
 .user-groups{
@@ -359,6 +360,4 @@ padding: 30px 20px;}
     .modal-content {
         width: 100%;
     }
-} 
-
-
+}
