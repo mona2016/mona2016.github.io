@@ -242,21 +242,12 @@ h6 {
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: rgba(33, 37, 41, 0.2);
+    /* background-color: rgba(33, 37, 41, 0.2); */
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1; }
 
-    .portfolio-item .caption .caption_bevote {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.2);
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      z-index: 1; }
 
     .portfolio-item .caption .caption-content {
       color: #fff;
