@@ -331,12 +331,17 @@ a {
 .bg-primary {
   background-color: #152888 !important; }
 
+.bg-yellow {
+    background-color: #ecb807 !important; }
+
 .text-primary {
   color: #1D809F !important; }
 
 .text-secondary {
   color: #ecb807; }
 
+  .text-white {
+    color: #ecb807; }
 
 .icon{
   max-width: 50px;
