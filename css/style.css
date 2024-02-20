@@ -260,13 +260,84 @@ padding: 30px 20px;}
   max-width: 75px;
 }
 
-/*.overlay{
+/* Hide the <p> elements by default */
+  .col-lg-6 .caption-content .overlay {
+    display: none;
+  }
+  .col-lg-12 .caption-content .overlay {
+    display: none;
+  }
+
+  /* text color black */
+  .col-lg-6 h2{
+    color: black;
+  }
+
+  .col-lg-6 .mb-0{
+    color: black;
+  }
+
+  .col-lg-12 h2{
+    color: black;
+  }
+
+  .col-lg-12 .mb-0{
+    color: black;
+  }
+
+  /* if the background is dark. text color should be white */
+  .col-lg-6 .dark-background{
+    color: white;
+  }
+
+  .col-lg-6 .mb-0-dark-background {
+    color: white;
+  }
+
+  .col-lg-12 .dark-background{
+    color: white;
+  }
+
+  .col-lg-12 .mb-0-dark-background {
+    color: white;
+  }
+
+  /* Show the <p> elements when the outermost div is hovered */
+  .col-lg-6:hover .caption-content .overlay {
+    display: block;
+  }
+  .col-lg-12:hover .caption-content .overlay {
+    display: block;
+  }
+
+  /* text color white */
+  .col-lg-6:hover h2{
+    color: white;
+  }
+
+  .col-lg-6:hover .mb-0{
+    color: white;
+  }
+
+  .col-lg-12:hover h2{
+    color: white;
+  }
+
+  .col-lg-12:hover .mb-0{
+    color: white;
+  }
+
+  /* project tile styling */
+
+
+
+/* .overlay{
   opacity: 0;
 }
 
 .portfolio-item:hover .caption .caption-content .overlay{
   opacity: 1;
-}*/
+} */
 
 /*
 .container:hover .desc {
